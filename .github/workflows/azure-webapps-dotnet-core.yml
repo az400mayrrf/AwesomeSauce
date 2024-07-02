@@ -79,6 +79,6 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'awesomesaucewebapp'
+          app-name: 'awesomesaucewebapps'
           slot-name: 'Production'
           package: .
